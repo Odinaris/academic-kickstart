@@ -19,14 +19,12 @@ collections:
         name: "draft"
         required: false
         widget: "boolean"
+        default: false 
+      - label: "Featured"
+        name: "featured"
+        required: false
+        widget: "boolean"
         default: false
-        
-      # - label: "Featured"
-      #   name: "featured"
-      #   required: false
-      #   widget: "boolean"
-      #   default: false
-
       - label: "Authors"
         name: "authors"
         required: false
@@ -43,21 +41,22 @@ collections:
         name: "projects"
         required: false
         widget: "list"
-      - label: "Featured Image"
-        name: "featured"
-        widget: object
-        fields:
-          - label: "Upload an image named `featured.jpg/png`"
-            name: "filename"
-            widget: "image"
-            default: "featured"
-            media_library:
-              config:
-                multiple: false
-          - {label: Caption, name: caption, widget: string, required: false}
-          - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
-          - {label: Thumbnail Only?, name: preview_only, widget: boolean, required: false, default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - label: "Featured Image"
+      #   name: "featured"
+      #   required: false
+      #   widget: object
+      #   fields:
+      #     - label: "Upload an image named `featured.jpg/png`"
+      #       name: "filename"
+      #       widget: "image"
+      #       default: "featured"
+      #       media_library:
+      #         config:
+      #           multiple: false
+      #     - {label: Caption, name: caption, widget: string, required: false}
+      #     - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
+      #     - {label: Thumbnail Only?, name: preview_only, widget: boolean, required: false, default: false}
+      # - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
