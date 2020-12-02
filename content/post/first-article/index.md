@@ -16,6 +16,8 @@ featured:
 
 第一次使用Academic 搭建博客，测试下效果哈
 
-
-
 第一次使用Academic 搭建博客，测试下效果哈
+
+
+
+![](img361397339.jpg)
