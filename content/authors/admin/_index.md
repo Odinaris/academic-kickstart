@@ -70,8 +70,4 @@ user_groups:
 - Visitors
 ---
 
-<!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. -->
-
-Hello, world! I am Du Yang.
+Yang Du received his bachelor degree in software engineering in 2018 and now is a master student in the School of Computer Science and Technology, Anhui University. His current research interests include reversible data hiding for JPEG images and multimedia security.
