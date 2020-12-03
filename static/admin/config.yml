@@ -7,7 +7,7 @@ collections:
   - name: "posts"
     label: "Posts"
     label_singular: Post
-    folder: 'content/post'
+    folder: 'content/en/post'
     path: '{{slug}}/index'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
@@ -41,22 +41,36 @@ collections:
         name: "projects"
         required: false
         widget: "list"
-      # - label: "Featured Image"
-      #   name: "featured image"
-      #   required: false
-      #   widget: object
-      #   fields:
-      #     - label: "Upload an image named `featured.jpg/png`"
-      #       name: "filename"
-      #       widget: "image"
-      #       default: "featured"
-      #       media_library:
-      #         config:
-      #           multiple: false
-      #     - {label: Caption, name: caption, widget: string, required: false}
-      #     - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
-      #     - {label: Thumbnail Only?, name: preview_only, widget: boolean, required: false, default: false}
-      # - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Featured Image"
+        name: "featured image"
+        required: false
+        widget: object
+        fields:
+          - label: "Upload an image named `featured.jpg/png`"
+            name: "filename"
+            widget: "image"
+            default: "featured"
+            media_library:
+              config:
+                multiple: false
+          - {label: Caption, name: caption, widget: string, required: false}
+          - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
+          - {label: Thumbnail Only?, name: preview_only, widget: boolean, required: false, default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+ 
+  - name: "publications"
+    label: "Publications"
+    label_singular: Publications
+    folder: 'content/en/publication'
+    path: '{{slug}}/index'
+    create: true  # Allow users to create new documents in this collection
+    fields:  # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publication Type", name: "publication type", widget: "number"}
+      - {label: "Publication", name: "publication", widget: "string"}
+      - {label: "Abstract", name: "abstract", widget: "string"}
+   
   - name: "pages"
     label: "Pages"
     files:

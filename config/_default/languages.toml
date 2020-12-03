@@ -22,7 +22,7 @@
 
   [[zh.menu.main]]
    name = "文章"
-   url = "#post"
+   url = "post/"
    weight = 20
 
   [[zh.menu.main]]
