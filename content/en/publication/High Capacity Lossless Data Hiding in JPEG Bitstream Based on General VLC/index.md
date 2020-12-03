@@ -3,8 +3,6 @@ title: High Capacity Lossless Data Hiding in JPEG Bitstream Based on General VLC
   Mapping
 date: 2020-12-03T05:24:06.934Z
 publication_types: ["2"] 
-
-#  ["1", "3"] 
 publication: IEEE Transactions on Dependable and Secure Computing
 abstract: As a branch of reversible data hiding (RDH), lossless data hiding
   (LDH) technique is important especially. Because LDH can not only reconstruct
