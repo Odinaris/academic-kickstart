@@ -6,16 +6,31 @@
 [en]
   languageCode = "en-us"
   
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
-# [zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[zh]
+ languageCode = "zh-Hans"
+ contentDir = "content/zh"
+ title = "Chinese website title..."
+ [zh.params]
+   description = "Site description in Chinese..."
+ [[zh.menu.main]]
+   name = "关于"
+   url = "#about"
+   weight = 10
+
+  [[zh.menu.main]]
+   name = "文章"
+   url = "#post"
+   weight = 20
+
+  [[zh.menu.main]]
+   name = "论文"
+   url = "#publications"
+   weight = 30
+
+  [[zh.menu.main]]
+   name = "联系"
+   url = "#contact"
+   weight = 40
