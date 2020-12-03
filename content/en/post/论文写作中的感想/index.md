@@ -9,11 +9,12 @@ featured:
   focal_point: Smart
   preview_only: false
 tags:
-  - 科研，感悟
+  - 科研
+  - 感悟
 categories:
   - 随笔
 featured image:
-  filename: 签名.jpg
+  filename: featured.jpg
 ---
 #### 起因
 
