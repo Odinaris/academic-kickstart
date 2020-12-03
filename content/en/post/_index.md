@@ -1,5 +1,5 @@
 ---
-title: Recent Publications
+title: Posts
 
 # View.
 #   1 = List
