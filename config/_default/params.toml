@@ -86,14 +86,14 @@ email = "duyang@stu.ahu.edu.cn"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Jiulong", city = "Hefei", region = "ANHUI", postcode = "230601", country = "China", country_code = "CN"}
+# address = {street = "Jiulong", city = "Hefei", region = "ANHUI", postcode = "230601", country = "China", country_code = "CN"}
 
-# Geographic coordinates
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "31.768001", longitude = "117.1773573"}
+# # Geographic coordinates
+# # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+# coordinates = {latitude = "31.768001", longitude = "117.1773573"}
 
-# Directions for visitors to locate you.
-directions = "The School of Computer Science and Technology"
+# # Directions for visitors to locate you.
+# directions = "The School of Computer Science and Technology"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
