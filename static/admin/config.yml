@@ -67,7 +67,7 @@ collections:
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Publication Type", name: "publication type", widget: "number"}
+      - {label: "Publication Type", name: "publication_types", widget: "number"}
       - {label: "Publication", name: "publication", widget: "string"}
       - {label: "Abstract", name: "abstract", widget: "string"}
    
