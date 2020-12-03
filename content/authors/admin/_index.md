@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Master of Computer Technology
+role: Graduate Student of Computer Technology
 
 # Organizations/Affiliations
 organizations:
@@ -31,10 +31,10 @@ education:
   #   institution: Stanford University
   #   year: 2012
   - course: MEng in Computer Technology
-    institution: Anhui University
+    institution: Anhui University, Hefei, Anhui, China
     year: 2019 - 2022
   - course: BSc in Software Engineering
-    institution: Anhui University
+    institution: Anhui University, Hefei, Anhui, China
     year: 2014 - 2018
 
 # Social/Academic Networking
@@ -70,4 +70,6 @@ user_groups:
 - Visitors
 ---
 
-Yang Du received his bachelor degree in software engineering in 2018 and now is a master student in the School of Computer Science and Technology, Anhui University. His current research interests include reversible data hiding for JPEG images and multimedia security.
+I have my bachelor degree in software engineering in 2018 and now is a master student in the School of Computer Science and Technology, Anhui University. 
+
+My current research interests include reversible data hiding for JPEG images and multimedia security.

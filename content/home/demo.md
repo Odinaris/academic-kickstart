@@ -50,7 +50,7 @@ subtitle = "世界"
  css_class = ""
 +++
 
-Hello, I am Yang Du!.
+Hello, this is Yang Du's blog.
 
 <!-- Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 
