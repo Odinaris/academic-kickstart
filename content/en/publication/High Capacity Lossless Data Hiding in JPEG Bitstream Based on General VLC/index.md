@@ -8,7 +8,7 @@ authors: ["Yang Du", "Zhaoxia Yin", "Xinpeng Zhang"]
 publication_date: 2020-07-28
 featured: true
 featured image: featured.png
-url_github: https://github.com/Odinaris/GVM
+url_code: https://github.com/Odinaris/GVM
 abstract: As a branch of reversible data hiding (RDH), lossless data hiding
   (LDH) technique is important especially. Because LDH can not only reconstruct
   the cover image losslessly but also keep the visual quality of the marked

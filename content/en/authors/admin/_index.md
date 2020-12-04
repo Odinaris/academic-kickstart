@@ -18,12 +18,13 @@ organizations:
   url: "http://www.ahu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include data hiding, multimedia security and artificial intelligence.
+bio: My research interests include data hiding, multimedia security, adversarial machine learning, and explainable artificial intelligence (XAI).
 
 interests:
 - Data Hiding
 - Multimedia Security
-- Artificial Intelligence
+- Adversarial Machine Learning
+- Explainable Artificial Intelligence (XAI)
 
 education:
   courses:
@@ -70,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-I have my bachelor degree in software engineering in 2018 and now is a master student in the School of Computer Science and Technology, Anhui University. 
+I have my bachelor degree in software engineering in 2018 and now is a graduate student in the School of Computer Science and Technology, Anhui University. 
 
-My current research interests include reversible data hiding for JPEG images and multimedia security.
+My current research interests include data hiding, multimedia security, adversarial machine learning, and explainable artificial intelligence (XAI).
